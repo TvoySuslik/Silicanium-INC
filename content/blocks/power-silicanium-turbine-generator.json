@@ -1,0 +1,23 @@
+
+"name": "Silicanium Turbine Generator",
+"description": "Small turbine generator.",
+"type": "BurnerGenerator",
+"size": 3,
+"powerProduction": 15,
+"itemDuration": 120,
+"hasLiquids": true,
+"requirements": [
+		{ "item": "silicanium", "amount": 180 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "thorium", "amount": 155 },
+		{ "item": "phase-fabric", "amount": 130 }
+	],
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.1,
+			"booster": false
+		}
+	},
+"category": "power",
+"research": "power-silicanium-power-node"

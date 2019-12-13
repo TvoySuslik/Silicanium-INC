@@ -1,0 +1,35 @@
+{	
+	"name": "MOFHI factory",
+	"type": "GenericCrafter",
+	"description": "Produces mixture of high inflammability.",
+	"hasPower": true,
+	"hasItems" : true,
+	"hasLiquids" : true,
+	"health": 700,
+	"size": 4,
+	"craftTime": 79.98,
+	"itemCapacity" : 12,
+	"consumes": {
+		"power": 2.4,
+		"items":{
+			"items":[
+				{"item":"blast-compound","amount":2},
+				{"item":"coal","amount":10}
+			]
+		},
+		"liquid": {
+			"liquid": "oil", 
+			"amount": 0.25,
+			"booster": false
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 160 },
+		{ "item": "silicanium", "amount": 140 },
+		{ "item": "thorium", "amount": 260 },
+        { "item": "surge-alloy", "amount": 240 }
+	],
+	"category": "crafting",
+	"research": "crafting-silicanium",
+	"outputItem": {"item": "mofhi", "amount": 4}
+}

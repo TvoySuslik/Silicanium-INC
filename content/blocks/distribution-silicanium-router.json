@@ -1,0 +1,14 @@
+{
+	"type": "router",
+	"name": "Silicanium Router",
+	"description": "Silicanium router",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 3},
+		{"item": "titanium", "amount": 3},
+		{"item": "thorium", "amount": 3}
+	],
+	
+	"category": "distribution",
+	"research": "distribution-silicanium-junction"
+} 

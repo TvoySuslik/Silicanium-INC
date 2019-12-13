@@ -1,0 +1,13 @@
+{
+	"name": "Big armored wall",
+  "description": "Big armored wall.",
+  "type": "wall",
+  "health": 5500,
+  "size": 2,
+  "variants" : 2,
+  "requirements": [
+	      { "item": "silicanium", "amount": 24 },
+	],
+  "category": "defense",
+  "research": "wall-silicanium"
+}

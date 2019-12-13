@@ -1,0 +1,12 @@
+{
+  "name": "Power Void",
+  "description": "Power void",
+  "type": "powerVoid",
+  "health": 100000,
+  "size": 1,
+  "requirements": [
+    { "item": "copper", "amount": 1 },
+  ],
+  "category": "power",
+  "research": "sandbox-power-source"
+}

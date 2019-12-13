@@ -1,0 +1,22 @@
+{
+  "name": "Silicanium Regen Wall",
+  "description": "Silicanium regen wall.",
+  "type": "mendProjector",
+  "health": 3230,
+  "size": 2,
+  "reload" : 45,
+  "range" : 16,
+  "healPercent" : 17, 
+  "phaseBoost" : 0,
+  "phaseRangeBoost" : 0,
+  "consumes": {
+        "power": 0.068
+  },
+  "requirements": [
+        { "item": "silicanium", "amount": 64 },
+	      { "item": "graphite", "amount": 44 },
+        { "item": "titanium", "amount": 24 }
+	],
+  "category": "defense",
+  "research": "wall-composite-big-regen"
+}

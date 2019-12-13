@@ -1,0 +1,20 @@
+{
+	"name": "Revenant Fighter Factory(only ower)",
+	"description": "Makes revenant for only out of power.",
+	"type": "UnitFactory",
+	"unitType": "revenant",
+	"size": 4,
+	"produceTime": 3000,
+	"maxSpawn" : 6,
+	"consumes": {
+		"power": 15,
+	},
+	"requirements": [
+		{ "item": "silicanium", "amount": 225 },
+		{ "item": "titanium", "amount": 225 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "plastanium", "amount": 75 }
+	],
+	"category": "units",
+	"research": "units-silicanium-drauger"
+}

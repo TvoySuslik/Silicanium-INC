@@ -1,0 +1,13 @@
+{
+	"name": "Armored wall",
+  "description": "Armoredarmored wall.",
+  "type": "wall",
+  "health": 1375,
+  "size": 1,
+  "variants" : 2,
+  "requirements": [
+	      { "item": "silicanium", "amount": 6 },
+	],
+  "category": "defense",
+  "research": "wall-composite"
+}

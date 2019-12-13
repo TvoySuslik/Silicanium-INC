@@ -1,0 +1,14 @@
+
+"name": "Silicanium Thermal Generator",
+"description": "Small thermal generator.",
+"type": "ThermalGenerator",
+"size": 1,
+"powerProduction": 3.6,
+"generateEffect": "redgeneratespark",
+"requirements": [
+		{ "item": "silicanium", "amount": 25 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "metaglass", "amount": 30 }
+	],
+"category": "power",
+"research": "power-silicanium-turbine-generator"

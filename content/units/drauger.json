@@ -1,0 +1,18 @@
+{
+	"type": "minerDrone",
+	"name": "Drauger",
+	"description": "Fast, small, shiny drones",
+	"flying": true,
+	"drag" : 0.02,
+	"speed": 0.2,
+	"maxVelocity": 0.8,
+	"range": 80,
+	"health": 320,
+	"minePower": 5,
+	"engineSize" : 2.8,
+	"engineOffset": 5.4,
+	"hitsize": 10,	
+	"weapon": {
+		"bullet": "lancerLaser"
+	}
+}

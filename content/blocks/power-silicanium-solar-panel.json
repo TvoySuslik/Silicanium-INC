@@ -1,0 +1,15 @@
+{
+	"name": "Silicanium Solar Panel",
+    "description": "Silicanium solar panel.",
+    "type": "SolarGenerator",
+    "size": 2,
+    "health": 480,
+    "powerProduction": 1.1,
+    "requirements": [
+		{ "item": "silicon", "amount": 145 },
+		{ "item": "silicanium", "amount": 145 },
+		{ "item": "thorium", "amount": 75 }
+	],
+    "category": "power",
+    "research": "power-silicanium-power-node"
+}

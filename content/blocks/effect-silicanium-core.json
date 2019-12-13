@@ -1,0 +1,16 @@
+{
+	"name": "Silicon Core",
+	"description": "Fake core. It is impossible to destroy. Build with care.",
+	"type": "coreBlock",
+	"hasItems": true,
+	"itemCapacity": 2600,
+	"health": 730,
+	"size": 2,
+	"requirements": [
+	    { "item": "silicanium", "amount": 500 },
+		{ "item": "titanium", "amount": 500 },
+		{ "item": "thorium", "amount": 500 }
+	],
+	"category": "effect",
+	"research": "distribution-silicanium-router"
+}

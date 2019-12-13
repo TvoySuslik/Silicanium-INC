@@ -1,0 +1,14 @@
+{
+	"name": "Big armored phasefabric wall.",
+  "description": "Big armored phasefabric wall.",
+  "type": "deflectorWall",
+  "health": 3950,
+  "size": 2,
+  "variants" : 2,
+  "requirements": [
+	      { "item": "silicanium", "amount": 18 },
+        { "item": "phase-fabric", "amount": 18 },
+	],
+  "category": "defense",
+  "research": "wall-silicanium-big"
+}

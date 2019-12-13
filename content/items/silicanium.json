@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Silicanium",
+	"description": "Just silicon and plastanium",
+	"flammability" : 0.1,
+    "explosiveness" : 0.2,
+	"color": "8F986E"
+}

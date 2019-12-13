@@ -1,0 +1,22 @@
+{
+  "name": "Regen Wall",
+  "description": "Regen wall.",
+  "type": "mendProjector",
+  "health": 960,
+  "size": 2,
+  "reload" : 90,
+  "range" : 16,
+  "healPercent" : 12, 
+  "phaseBoost" : 0,
+  "phaseRangeBoost" : 0,
+  "consumes": {
+         "power": 0.035
+  },
+  "requirements": [
+        { "item": "silicon", "amount": 64 },
+	      { "item": "graphite", "amount": 44 },
+        { "item": "titanium", "amount": 24 }
+	],
+  "category": "defense",
+  "research": "wall-composite-big"
+}

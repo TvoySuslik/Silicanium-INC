@@ -1,0 +1,14 @@
+{
+	"name": "Big armored surgealloy wall.",
+  "description": "Big armored surgealloy wall.",
+  "type": "surgeWall",
+  "health": 4590,
+  "size": 2,
+  "variants" : 2,
+  "requirements": [
+	      { "item": "silicanium", "amount": 18 },
+        { "item": "surge-alloy", "amount": 18 },
+	],
+  "category": "defense",
+  "research": "wall-silicanium-big"
+}

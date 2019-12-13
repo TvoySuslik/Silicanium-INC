@@ -1,0 +1,32 @@
+{	
+	"name": "Silicanium factory",
+	"type": "GenericCrafter",
+	"description": "Produces silicanium homing bursting material.",
+	"health": 580,
+	"hasPower": true,
+	"size": 3,
+	"craftTime": 120,
+	"updateEffect": "smeltsmoke",
+	"itemCapacity" : 30,
+	"consumes": {
+		"power": 8.0,
+		"items":{
+			"items":[
+				{"item":"silicon","amount":1},
+				{"item":"plastanium","amount":1},
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "graphite", "amount": 200 },
+		{ "item": "metaglass", "amount": 300 },
+		{ "item": "titanium", "amount": 175 },
+		{ "item": "thorium", "amount": 125 },
+		{ "item": "surge-alloy", "amount": 75 }
+	],
+	"category": "crafting",
+	"research": "silicanium-inc",
+	"idleSound": "machine",
+	"outputItem": {"item": "silicanium", "amount": 2}
+}

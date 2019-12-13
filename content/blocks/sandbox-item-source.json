@@ -1,0 +1,12 @@
+{
+	"name": "Item Source",
+  "description": "Item Source",
+  "type": "itemSource",
+  "health": 100000,
+  "size": 1,
+  "requirements": [
+	  { "item": "copper", "amount": 1 },
+	],
+  "category": "distribution",
+  "research": "core-shard"
+}

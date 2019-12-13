@@ -1,0 +1,18 @@
+{
+  "name": "Repair Point",
+  "description": "Repair Point.",
+  "type": "repairPoint",
+  "health": 240,
+  "size": 2,
+  "repairSpeed": 3,
+  "repairRadius": 390,
+  "powerUse": 6,
+              
+  "requirements": [
+	      { "item": "silicanium", "amount": 90 },
+        { "item": "titanium", "amount": 90 },
+        { "item": "thorium", "amount": 90 }
+	],
+  "category": "units",
+  "research": "units-silicanium-drauger"
+}

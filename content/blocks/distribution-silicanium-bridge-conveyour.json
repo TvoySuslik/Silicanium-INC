@@ -1,0 +1,16 @@
+{
+	"type": "itemBridge",
+	"name": "Silicanium Bridge Conveyour",
+	"description": "Silicanium bridge conveyour.",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 4},
+		{"item": "titanium", "amount": 4},
+		{"item": "thorium", "amount": 4}
+	],
+	"range": 12,
+	"hasPower": false,
+    "speed": 210,
+    "category": "distribution",
+	"research": "distribution-silicanium-junction"
+} 

@@ -1,0 +1,13 @@
+{
+	"type": "vault",
+	"name": "Silicanium Container",
+	"description": "Silicanium container",
+	"health": 240,
+	"size": 2,
+	"requirements": [
+		{"item": "silicanium", "amount": 150}
+	],
+    "itemCapacity": 450,
+	"category": "distribution",
+	"research": "distribution-silicanium-router"
+}

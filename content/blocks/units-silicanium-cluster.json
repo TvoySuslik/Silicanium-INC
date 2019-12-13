@@ -1,0 +1,19 @@
+{
+	"name": "Сluster Repair Drone Factory",
+	"description": "Makes fast, small, shiny drones.",
+	"type": "UnitFactory",
+	"unitType": "cluster",
+	"size": 2,
+	"produceTime": 400,
+	"maxSpawn" : 6,
+	"consumes": {
+		"power": 1.8,
+	},
+	"requirements": [
+		{ "item": "silicanium", "amount": 68 },
+		{ "item": "metaglass", "amount": 68 },
+		{ "item": "thorium", "amount": 83 }
+	],
+	"category": "units",
+	"research": "units-silicanium-repair-point"
+}

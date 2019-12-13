@@ -1,0 +1,21 @@
+{
+	"name": "Big Silicanium Illuminator",
+	"description": "Big silicanium illuminator.",
+	"type": "LightBlock",
+	"health": 540,
+    "size": 3,
+	"brightness": 0.40,
+    "radius": 960,
+    "consumes": {
+		"power": 9
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 126 },
+		{ "item": "silicon", "amount": 126 },
+	    { "item": "phase-fabric", "amount": 126 },
+		{ "item": "surge-alloy", "amount": 126 }
+		{ "item": "silicanium", "amount": 252 }
+	],
+	"category": "effect",
+    "research": "effect-silicanium-illuminator"
+}

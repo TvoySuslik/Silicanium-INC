@@ -1,0 +1,17 @@
+{
+    "type": "powerNode",
+    "name" : "Silicanium Power Node",
+    "description": "Silicanium power node.",
+    "health": 680,
+    "size" : 3,
+    "maxNodes" : 100,
+    "laserRange" : 32,
+    "requirements": [
+		{ "item": "silicon", "amount": 175 },
+		{ "item": "silicanium", "amount": 175 },
+        { "item": "surge-alloy", "amount": 75 },
+		{ "item": "phase-fabric", "amount": 75 }
+    ],
+	"category": "power",
+	"research": "crafting-silicanium"
+}

@@ -1,0 +1,14 @@
+{
+	"type": "sorter",
+	"name": "Silicanium Inverted Sorter",
+	"description": "Silicanium inverted sorter",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 2},
+		{"item": "titanium", "amount": 2},
+		{"item": "thorium", "amount": 2}
+	],
+    "invert": true,
+	"category": "distribution",
+	"research": "distribution-silicanium-sorter"
+} 

@@ -1,0 +1,26 @@
+{
+	"name": "Drauger Miner Drone Factory",
+	"description": "Makes drauger",
+	"type": "UnitFactory",
+	"unitType": "drauger",
+	"size": 3,
+	"health": 540,
+	"produceTime": 3750,
+	"maxSpawn" : 3,
+	"consumes": {
+		"power": 4.05,
+	    "items":{
+			"items":[
+				{"item":"silicon","amount":20}
+			]
+        }
+    },
+	"category": "units",
+	"requirements": [
+		{ "item": "silicanium", "amount": 240 },
+		{ "item": "graphite", "amount": 240 },
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "thorium", "amount": 100 }
+	],
+	"research": "crafting-silicanium"
+}

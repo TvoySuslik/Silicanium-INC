@@ -1,0 +1,12 @@
+{
+  "name": "Power Source",
+  "description": "Power source",
+  "type": "powerSource",
+  "health": 100000,
+  "size": 1,
+  "requirements": [
+    { "item": "copper", "amount": 1 },
+  ],
+  "category": "power",
+  "research": "sandbox-liquid-source"
+}

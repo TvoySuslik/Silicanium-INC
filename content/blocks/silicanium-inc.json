@@ -1,0 +1,12 @@
+{
+	"name": "Silicanium INC",
+  "description": "Silicanium INC",
+  "type": "wall",
+  "health": 1,
+  "size": 2,
+  "requirements": [
+	      { "item": "silicon", "amount": 100 }
+	],
+  "category": "effect",
+  "research": "core-shard"
+}

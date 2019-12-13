@@ -1,0 +1,13 @@
+{
+	"type": "sorter",
+	"name": "Silicanium Sorter",
+	"description": "Silicanium sorter",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 2},
+		{"item": "titanium", "amount": 2},
+		{"item": "thorium", "amount": 2}
+	],
+	"category": "distribution",
+	"research": "distribution-silicanium-router"
+} 

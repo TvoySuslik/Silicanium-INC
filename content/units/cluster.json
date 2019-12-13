@@ -1,0 +1,22 @@
+{
+	"type": "repairDrone",
+	"name": "Сluster",
+	"description": "Fast, small, shiny drones",
+	"speed": 0.9,
+	"drag" : 0.01,
+	"flying": true,
+	"health": 40,
+	"range": 50,
+	"engineSize" : 0.9,
+	"weapon": {
+		"name": "heal-blaster",
+		"length": 0.75,
+		"reload": 80,
+		"width" : 0.25,
+		"recoil" : 4,
+		"alternate": true,
+		"bullet": "healBullet",
+		"shootSound" : "pew",
+		"roundrobin" : true
+	}
+}

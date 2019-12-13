@@ -1,0 +1,56 @@
+{
+	"type": "doubleTurret",
+	"name": "Test turret",
+	"description": "A small, simple turret on which tested new Technologii.",
+	"targetAir": true,
+	"targetGround": true, 
+	"health": 300,
+	"size": 1,
+	"reload": 10,
+	"shootCone": 15,
+	"rotateSpeed": 10,
+	"shots": 10,
+	"range": 100,
+	"ammoUseEffect" : "shellEjectSmall",
+	"ammo": {
+		"silicon": {
+			"speed": 10.0,
+			"damage": 10,
+			"bulletWidth": 7,
+			"bulletHeight": 11,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"homingPower" : 1,
+            "homingRange" : 100,
+			"ammoMultiplier": 2,
+			"backColor" : "53565c",
+            "frontColor" : "53565c",
+		},
+		"plastanium": {
+			"speed": 5.0,
+			"damage" : 10,
+			"ammoMultiplier": 1,
+			"hitEffect" : "flakExplosion",
+			"bulletWidth": 14,
+			"bulletHeight": 14,
+			"splashDamageRadius" : 24.8,
+        	"splashDamage" : 10,
+        	"ammoEjectBack" : 5,
+        	"ammoUseEffect" : "shellEjectBig",
+        	"fragBullet" : "artilleryPlasticFrag",
+       	 	"fragBullets" : 1,
+        	"knockback" : 1,
+        	"backColor" : "cbd97f",
+        	"frontColor" : "cbd97f",
+       	 	"type": "ArtilleryBulletType",
+       	 	"BulletSprite": "silicanium-inc-shell"
+  		}
+    },
+	"requirements": [
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "graphite", "amount": 20 }
+	],
+
+	"category": "turret",
+	"research": "silicanium-inc"
+}

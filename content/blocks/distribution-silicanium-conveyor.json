@@ -1,0 +1,14 @@
+{
+	"type": "conveyor",
+	"name": "Silicanium Conveyor",
+	"description": "Fery fast conveyor",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 1},
+		{"item": "titanium", "amount": 1},
+		{"item": "thorium", "amount": 1}
+	],
+	"speed": 0.12,
+	"category": "distribution",
+	"research": "crafting-silicanium"
+} 

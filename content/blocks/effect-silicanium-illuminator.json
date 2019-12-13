@@ -1,0 +1,19 @@
+{
+	"name": "Silicanium Illuminator",
+	"description": "Silicanium illuminator",
+	"type": "LightBlock",
+	"health": 975,
+    "size": 1,
+	"brightness": 0.80,
+    "radius": 240,
+    "consumes": {
+		"power": 0.25
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 36 },
+		{ "item": "silicon", "amount": 12 },
+		{ "item": "silicanium", "amount": 12 }
+	],
+	"category": "effect",
+    "research": "distribution-silicanium-conveyor"
+}

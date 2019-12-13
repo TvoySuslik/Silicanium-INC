@@ -1,0 +1,12 @@
+{
+  "name": "Liquid Source",
+  "description": "Liquid source",
+  "type": "liquidSource",
+  "health": 100000,
+  "size": 1,
+  "requirements": [
+    { "item": "copper", "amount": 1 },
+  ],
+  "category": "liquid",
+  "research": "sandbox-item-source"
+}

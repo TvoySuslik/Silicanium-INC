@@ -1,0 +1,13 @@
+{
+	"name": "Big composite wall",
+  "description": "Big сomposite wall.",
+  "type": "wall",
+  "health": 1600,
+  "size": 2,
+  "requirements": [
+	      { "item": "graphite", "amount": 24 },
+        { "item": "silicon", "amount": 16 },
+	],
+  "category": "defense",
+  "research": "wall-composite"
+}

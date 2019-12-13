@@ -1,0 +1,14 @@
+{
+	"type": "overflowGate",
+	"name": "Silicanium Overflow Gate",
+	"description": "Silicanium overflow gate",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 4},
+		{"item": "titanium", "amount": 4},
+		{"item": "thorium", "amount": 4}
+	],
+
+	"category": "distribution",
+	"research": "distribution-silicanium-sorter"
+} 

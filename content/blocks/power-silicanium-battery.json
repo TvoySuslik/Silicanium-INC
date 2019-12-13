@@ -1,0 +1,17 @@
+{
+	"name": "Silicanium Battery",
+    "description": "Silicanium battery.",
+    "type": "Battery",
+    "size": 4,
+    "health": 960,
+    "consumes": {
+      "powerBuffered": 133000,
+    },
+    "requirements": [
+		{ "item": "silicon", "amount": 55 },
+		{ "item": "silicanium", "amount": 110 },
+		{ "item": "thorium", "amount": 55 }
+	],
+    "category": "power",
+    "research": "power-silicanium-power-node"
+}

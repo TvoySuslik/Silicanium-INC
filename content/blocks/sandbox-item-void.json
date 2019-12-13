@@ -1,0 +1,12 @@
+{
+  "name": "Item Void",
+  "description": "Item void",
+  "type": "itemVoid",
+  "health": 100000,
+  "size": 1,
+  "requirements": [
+    { "item": "copper", "amount": 1 },
+  ],
+  "category": "distribution",
+  "research": "sandbox-item-source"
+}

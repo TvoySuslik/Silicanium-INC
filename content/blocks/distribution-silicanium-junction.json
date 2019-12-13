@@ -1,0 +1,15 @@
+{
+	"type": "junction",
+	"name": "Silicanium Junction",
+	"description": "Silicanium junction",
+	"health": 420,
+	"requirements": [
+		{"item": "silicanium", "amount": 1},
+		{"item": "titanium", "amount": 1},
+		{"item": "thorium", "amount": 1}
+	],
+	"speed": 78,
+    "capacity": 36,
+	"category": "distribution",
+	"research": "distribution-silicanium-conveyor"
+}

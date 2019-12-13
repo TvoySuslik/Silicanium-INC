@@ -1,0 +1,13 @@
+{
+  "name": "Composite wall",
+  "description": "Composite wall.",
+  "type": "wall",
+  "health": 400,
+  "size": 1,
+  "requirements": [
+	      { "item": "graphite", "amount": 6 },
+        { "item": "silicon", "amount": 4 },
+	],
+  "category": "defense",
+  "research": "turret-test"
+}
